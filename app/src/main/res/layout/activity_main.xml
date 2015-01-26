@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" 
+    android:background="@drawable/fondo">
+
+    <TextView
+        android:id="@+id/txt_latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_autenticate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp" 
+        android:alpha="1"/>
+
+    <TextView
+        android:id="@+id/txt_longitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txt_latitude"
+        android:layout_below="@+id/txt_latitude" />
+
+    <TextView
+        android:id="@+id/txt_idDevice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/txt_longitude"
+        android:layout_below="@+id/txt_longitude" />
+
+    <EditText
+        android:id="@+id/edit_patron"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_autenticate"
+        android:layout_alignRight="@+id/btn_autenticate"
+        android:layout_below="@+id/txt_password"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="numberPassword"
+        android:maxLength="4"
+        android:textAlignment="center"
+        android:textSize="@dimen/font_size1" />
+
+    <Button
+        android:id="@+id/btn_autenticate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_patron"
+        android:layout_centerHorizontal="true"
+        android:text="@string/btn_autenticate"
+        android:alpha="1" />
+
+    <TextView
+        android:id="@+id/txt_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/txt_password" />
+
+    <Button
+        android:id="@+id/btnUpdateAPK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txt_latitude"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp"
+        android:text="@string/btnUpdateAPK"
+        />
+
+</RelativeLayout>

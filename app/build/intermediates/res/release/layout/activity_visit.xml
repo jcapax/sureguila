@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/fondo">
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_gravity="center"
+    android:weightSum="1">
+    
+    <EditText
+        android:id="@+id/edit_idClient"
+        android:layout_width="89dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btn_buscarClient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_searchClient" />
+
+        <Button
+            android:id="@+id/btn_newClient"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/btn_newClient" />
+
+        <Button
+            android:id="@+id/btn_listaGeneral"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_listaGeneral" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_datosCliente"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_datosCliente" 
+        android:textSize="@dimen/font_size1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/edit_zonaCliente"
+            android:layout_width="89dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.09"
+            android:ems="10"
+            android:inputType="number" 
+            android:hint="@string/edit_zonaCliente" 
+      	 />
+        
+        <EditText
+            android:id="@+id/edit_rutaCliente"
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:ems="10"
+            android:hint="@string/edit_rutaCliente"
+            android:inputType="text" />
+
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/spn_visita"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content" />
+
+
+    <Spinner
+	    android:id="@+id/spn_escado"
+	    android:layout_width="160dp"
+	    android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_generarVisita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_generarVisita" />
+
+</LinearLayout><!-- From: file:/C:/Users/jcarlos.porcel.SIDS/AndroidStudioProjects/Sureguila1/app/src/main/res/layout/activity_visit.xml -->

@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".SaleDetail" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/detailClient"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"            
+            android:text="@string/detailClient"
+            android:textColor="#ff0000"
+            android:textSize="18sp" 
+            android:layout_marginTop="-25dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="104dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="time" />
+
+        </LinearLayout>
+
+        <Spinner
+            android:id="@+id/spinProducto"
+            android:layout_width="266dp"
+            android:layout_height="38dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/editCantidadPreVenta"
+                android:layout_width="108dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/editCantidadPreVenta"
+                android:inputType="number" >
+
+                <requestFocus />
+            </EditText>
+
+            <Button
+                android:id="@+id/btnSendText"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.12"
+                android:text="@string/btnSendText" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listProducts"
+            android:layout_width="fill_parent"
+            android:layout_height="134dp" >
+        </ListView>
+
+        <Button
+            android:id="@+id/btnGetProducts"
+            android:layout_width="288dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/btnGetProducts"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+</RelativeLayout>

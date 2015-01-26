@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="btnUpdateAPK">Actualizar Sureguila!!!</string>
+    <string name="app_name">Sureguila</string>
+    <string name="action_settings">Settings</string>
+    <string name="txt_login">Usuario</string>
+    <string name="edit_login">Nombre Usuario</string>
+    <string name="txt_password">Código Patron</string>
+    <string name="btn_autenticate">Autenticar</string>
+    <string name="btn_new">Nuevo</string>
+    <string name="btn_exist">Existente</string>
+    <string name="btn_close">Cerrar</string>
+    <string name="title_activity_menu">Menu principal</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="edit_clientName">Nombre o Denominacion Cliente</string>
+    <string name="edit_direction">Direccion</string>
+    <string name="edit_nro">Nro.</string>
+    <string name="edit_zone">Zona</string>
+    <string name="title_activity_client_register">Registro de Clientes</string>
+    <string name="txt_canal">Canal</string>
+    <string name="edit_phones">Telefonos</string>
+    <string name="txt_dateBorn">Fecha Nacimineto</string>
+    <string name="btn_saveClient">Guardar Cliente</string>
+    <string name="btnAceptar">Aceptar</string>
+    <string name="edit_ruta">Ruta</string>
+    <string name="edit_zonaCliente">Zona Cl.</string>
+    <string name="edit_rutaCliente">Ruta Cl.</string>
+    
+    
+    <string name="textViewNombreClienteVisita">nombre cliente</string>
+
+    <string-array name="canal">
+        <item>Canal</item>
+        <item>Comidas y Bebidas</item>
+        <item>servicios</item>
+        <item>Hospedaje</item>
+        <item>Hogar</item>
+        <item>Otros</item>
+    </string-array>
+    <string-array name="tipoLocal">
+        <item>Tipo Local</item>
+        <item>Tienda</item>
+        <item>Agencia</item>
+        <item>Almacen</item>
+        <item>Alojamiento</item>
+        <item>Bar</item>
+        <item>Bazar</item>
+        <item>Billar</item>
+        <item>Broasteria</item>
+        <item>Cafeteria</item>
+        <item>Cantina</item>
+        <item>Carniceria</item>
+        <item>Casa de Huespedes</item>
+        <item>Chicharroneria</item>
+        <item>Choriceria</item>
+        <item>Churrasqueria</item>
+        <item>Comedor Popular</item>
+        <item>Comida Rapida</item>
+        <item>Discoteca</item>
+        <item>Facultad</item>
+        <item>Hostal</item>
+        <item>Hotel</item>
+        <item>Jugueras</item>
+        <item>Karaoque</item>
+        <item>Kiosco</item>
+        <item>Licoreria</item>
+        <item>Local Cristiano</item>
+        <item>Minimercado</item>
+        <item>Motel</item>
+        <item>Night Club</item>
+        <item>Pension</item>
+        <item>Pizzeria</item>
+        <item>Residencial</item>
+        <item>Restaurant</item>
+        <item>Salon de Eventos</item>
+        <item>Salteñeria</item>
+        <item>Supermercado</item>
+    </string-array>
+    <string-array name="escado">
+        <item>MOTIVO RECHAZO</item>
+        <item>Exclusivo</item>
+        <item>Stock</item>
+        <item>Cerrado</item>
+        <item>Ausente</item>
+        <item>Dinero</item>
+        <item>SinDecision</item>
+        <item>NoVendeBebidas</item>
+        <item>Otros</item>
+    </string-array>
+    <string-array name="tipoVisita">
+        <item>TIPO VENTA</item>
+        <item>Directa</item>
+        <item>Preventa</item>
+        <item>Rechazo</item>
+        <item>Evento</item>
+        <item>Supervisado</item>
+    </string-array>
+
+    <string name="editCantidadPreVenta">Cantidad</string>
+    <string name="btnSendText">Adicionar</string>
+    <string name="btnGetProducts">Enviar</string>
+
+    <string-array name="producto">
+        <item>PRODUCTO</item>
+        <item>Botella Especial</item>
+        <item>Botella Sesquicentenario</item>
+        <item>Botella Stout</item>
+        <item>Botella Bicentenario</item>
+        <item>Lata Especial</item>
+        <item>Lata Sesquicentenario</item>
+        <item>Botellin Especial</item>
+        <item>Botellin Sesquicentenario</item>
+        <item>Botellin Stout</item>
+        <item>Botellin Bicentenario</item>
+        <item>Botellin 33</item>
+        <item>Chopp Especial</item>
+        <item>Chopp Sesquicentenario</item>
+        <item>Chopp Bicentenario</item>
+    </string-array>
+
+    <string name="btn_visit">Realizar Visita</string>
+    <string name="txt_idCliente">Código Cliente</string>
+    <string name="btn_searchClient">Buscar</string>
+    <string name="btn_listaGeneral">Lista</string>
+    <string name="title_activity_data_client">Datos Cliente</string>
+    <string name="title_activity_visit">VisitActivity</string>
+    <string name="txt_datosCliente">0</string>
+    <string name="btn_generarVisita">Generar Visita</string>
+    <string name="btn_newClient">Nuevo</string>
+    <string name="title_activity_confirm_client">ConfirmClient</string>
+    <string name="title_activity_pre_sale">PreSale</string>
+    <string name="title_activity_sale_detail">SaleDetail</string>
+    <string name="detailClient">id</string>
+    <string name="title_activity_client_list">Lista de Clientes</string>
+    <string name="editSearch">Criterio</string>
+    <string name="title_activity_visit_list">Lista de Visitas por Cliente</string>
+    
+    <string name="editFechaEntrega">Fecha Entrega</string>
+    <string name="editHoraEntrega">Hora</string>
+    
+
+</resources>

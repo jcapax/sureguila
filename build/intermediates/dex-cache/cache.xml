@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\jcarlos.porcel.SIDS\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Users\jcarlos.porcel.SIDS\AndroidStudioProjects\Sureguila1\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-55d9087449a6964d780dba9a0f22471a92039451.jar" />
+    </item>
+    <item
+        jar="C:\Users\jcarlos.porcel.SIDS\AndroidStudioProjects\Sureguila1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="C:\Users\jcarlos.porcel.SIDS\AndroidStudioProjects\Sureguila1\app\build\intermediates\pre-dexed\debug\classes-75f955154d8e2be964a61036345d7abc3ea3e184.jar" />
+    </item>
+    <item
+        jar="C:\Users\jcarlos.porcel.SIDS\AndroidStudioProjects\Sureguila1\app\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\19.1.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="af4cc326e6cd92f88db12298767e521743aedd36">
+        <dex dex="C:\Users\jcarlos.porcel.SIDS\AndroidStudioProjects\Sureguila1\app\build\intermediates\pre-dexed\debug\classes-d6a12172e65a7756c1da416e2901dc79a9f25c8b.jar" />
+    </item>
+
+</items>

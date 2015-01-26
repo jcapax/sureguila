@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jcapax.correcaminos.ClientList"
+    tools:ignore="MergeRootFrame" 
+    android:background="@drawable/fondo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/editSearch"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="3.06"
+                android:ems="10"
+                android:hint="@string/editSearch" />
+
+            <Button
+                android:id="@+id/btnSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:drawableBottom="@drawable/ic_action_search" />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listViewClientes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3.06"
+            android:background="#848484" >
+
+        </ListView>
+
+    </LinearLayout>
+
+</FrameLayout>
+
+<!-- From: file:/C:/Users/jcarlos.porcel.SIDS/AndroidStudioProjects/Sureguila1/app/src/main/res/layout/activity_client_list.xml -->
